@@ -1,0 +1,102 @@
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="student.php" method="post">
+
+<table cellpadding="2" width="20%" bgcolor="FFA07A" align="center"
+cellspacing="2">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>Student Registration Form</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>First Name:</td>
+<td><input type=text name=firstname id="textname" size="30"></td>
+</tr>
+
+
+<tr>
+    <td>Last Name:</td>
+    <td><input type="text" name="Lastname" id="Lastname"
+    size="30"></td>
+    </tr>
+<tr>
+<td>Postal Code:</td>
+<td><input type="text" name="pcode" id="paddress" size="30"></td>
+</tr>
+
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address"
+id="personaladdress" size="30"></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="Gender" value="male" size="10">Male
+<input type="radio" name="Gender" value="Female" size="10">Female
+<input type="radio" name="Gender" value="Others" size="10">Others</td>
+</tr>
+
+<tr>
+<td>State:</td>
+<td><select Name="state">
+<option selected>select..</option>
+<option value="Kathmandu">KATHMANDU</option>
+<option value="Pokahra">POKAHRA</option>
+<option value="Birendranagar">BIRENDRNAGAR</option>
+<option value="Bihar">BIHAR</option>
+</select></td>
+</tr>
+<tr>
+<td>City:</td>
+<td><select Name="city">
+<option selected>select..</option>
+<option value="Kathmandu">KATHMANDU</option>
+<option value="Pokhar">POKHAR</option>
+<option value="Butwal">BUTWAL</option>
+<option value="Syangja">SYANGJA</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Course:</td>
+<td><select Name="course">
+<option  selected>select..</option>
+<option value="It">IT</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+<option value="BA">BA</option>
+<option value="Be">BE</option>
+</select></td>
+</tr>
+
+
+<tr>
+<td>Email:</td>
+<td><input type="email" name="e" id="email" size="30"></td>
+</tr>
+
+<tr>
+<td>Date of birth:</td>
+<td><input type="date" name="dob" id="dob" size="30"></td>
+</tr>
+
+<tr>
+<td>Mobile No:</td>
+<td><input type="number" name="mobile" id="mobileno" size="30"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
