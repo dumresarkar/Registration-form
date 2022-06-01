@@ -3,7 +3,7 @@
 <script type="text/javascript" src="validate.js"></script>
 </head>
 <body>
-<form action="student.php" method="post">
+<form action="details_entry.php" method="post">
 
 <table cellpadding="2" width="20%" bgcolor="FFA07A" align="center"
 cellspacing="2">
@@ -16,23 +16,20 @@ cellspacing="2">
 
 <tr>
 <td>First Name:</td>
-<td><input type=text name=firstname id="textname" size="30"></td>
+<td><input type=text name=First_name size="30"></td>
 </tr>
 
 
 <tr>
     <td>Last Name:</td>
-    <td><input type="text" name="Lastname" id="Lastname"
+    <td><input type="text" name="Last_name" 
     size="30"></td>
     </tr>
-<tr>
-<td>Postal Code:</td>
-<td><input type="text" name="pcode" id="paddress" size="30"></td>
-</tr>
+
 
 <tr>
 <td>Address:</td>
-<td><input type="text" name="address"
+<td><input type="text" name="Address"
 id="personaladdress" size="30"></td>
 </tr>
 
@@ -45,7 +42,7 @@ id="personaladdress" size="30"></td>
 
 <tr>
 <td>State:</td>
-<td><select Name="state">
+<td><select Name="State">
 <option selected>select..</option>
 <option value="Kathmandu">KATHMANDU</option>
 <option value="Pokahra">POKAHRA</option>
@@ -55,7 +52,7 @@ id="personaladdress" size="30"></td>
 </tr>
 <tr>
 <td>City:</td>
-<td><select Name="city">
+<td><select Name="City">
 <option selected>select..</option>
 <option value="Kathmandu">KATHMANDU</option>
 <option value="Pokhar">POKHAR</option>
@@ -66,7 +63,7 @@ id="personaladdress" size="30"></td>
 
 <tr>
 <td>Course:</td>
-<td><select Name="course">
+<td><select Name="Course">
 <option  selected>select..</option>
 <option value="It">IT</option>
 <option value="MCA">MCA</option>
@@ -80,21 +77,21 @@ id="personaladdress" size="30"></td>
 
 <tr>
 <td>Email:</td>
-<td><input type="email" name="e" id="email" size="30"></td>
+<td><input type="Email" name="e"  size="30"></td>
 </tr>
 
 <tr>
 <td>Date of birth:</td>
-<td><input type="date" name="dob" id="dob" size="30"></td>
+<td><input type="date" name="Date_of-birth"  size="30"></td>
 </tr>
 
 <tr>
 <td>Mobile No:</td>
-<td><input type="number" name="mobile" id="mobileno" size="30"></td>
+<td><input type="number" name="Mobile_no"  size="30"></td>
 </tr>
 <tr>
 <td><input type="reset"></td>
-<td colspan="2"><input type="submit" value="Submit Form" /></td>
+<td colspan="2"><input type="submit" name="save" value="Submit Form" /></td>
 </tr>
 </table>
 </form>
